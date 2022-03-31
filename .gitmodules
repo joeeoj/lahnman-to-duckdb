@@ -1,0 +1,3 @@
+[submodule "src/lahnman"]
+	path = src/lahnman
+	url = https://github.com/chadwickbureau/baseballdatabank.git
