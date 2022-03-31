@@ -30,6 +30,6 @@ Run `$ python main.py` to regenerate the `lahnman.duckdb` database file
 
 ## notes
 
-The lahnman folder is a the baseballdatabank repo as a submodule. None of the data in this module has been touched.
+The lahnman folder is the baseballdatabank repo as a submodule. None of the data in this module has been touched.
 
-The sql folder contains create queries pulled from the Lahnman SQLite distribution. These have been modified at times to align with the data in the lahnman folder (a few tables contained extraneous columns).
+The sql folder contains create queries pulled from the Lahnman SQLite distribution. These have been modified at times to align with the data in the lahnman folder (for example a few tables contained extraneous columns).
