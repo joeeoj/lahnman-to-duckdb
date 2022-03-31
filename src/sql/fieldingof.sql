@@ -1,0 +1,11 @@
+CREATE TABLE "fieldingof" (
+    "ID" INTEGER NOT NULL,
+    "playerID" VARCHAR(9) NOT NULL,
+    "yearID" SMALLINT NOT NULL,
+    "stint" SMALLINT NOT NULL,
+    "Glf" SMALLINT NULL,
+    "Gcf" SMALLINT NULL,
+    "Grf" SMALLINT NULL,
+    PRIMARY KEY ("ID"),
+    FOREIGN KEY("playerID") REFERENCES "people" ("playerID") ON UPDATE NO ACTION ON DELETE NO ACTION
+);

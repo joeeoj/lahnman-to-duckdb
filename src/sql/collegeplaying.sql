@@ -1,0 +1,9 @@
+CREATE TABLE "collegeplaying" (
+    "ID" INTEGER NOT NULL,
+    "playerID" VARCHAR(9) NOT NULL,
+    "schoolID" VARCHAR(15) NULL,
+    "yearID" SMALLINT NULL,
+    PRIMARY KEY ("ID"),
+    FOREIGN KEY("schoolID") REFERENCES "schools" ("schoolID") ON UPDATE NO ACTION ON DELETE NO ACTION,
+    FOREIGN KEY("playerID") REFERENCES "people" ("playerID") ON UPDATE NO ACTION ON DELETE NO ACTION
+);
